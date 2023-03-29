@@ -7,6 +7,8 @@ body {
   color: #333;
   font-size: 0.75rem;
   margin: 0;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 header,h1,p,h2,h3 {
@@ -15,7 +17,6 @@ header,h1,p,h2,h3 {
 
 img {
   margin: 0 auto;
-  padding: 0;
   display: block;
 }
 
@@ -29,7 +30,7 @@ header h1 {
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 0px 16px 0px;
+  padding: 0px 5% 0px;
   overflow-x: scroll;
 }
 .menu {
@@ -51,7 +52,6 @@ main {
 main img {
   width: 100%;
   margin: 0;
-  padding: 8px 0;
 }
 
 .disc h2 {
@@ -134,4 +134,33 @@ table td {
 footer {
   text-align: center;
   margin-top: 96px;
+}
+
+
+@media (min-width:896px) {
+
+header {
+  border-bottom: 1px solid #aaa;
+}
+
+.container {
+  overflow-x: hidden;
+  padding-bottom: 24px;
+}
+
+main {
+  display: flex;
+  margin: 0 40px;
+  padding: 40px 0;
+}
+
+.pc-img {
+  flex: 1;
+}
+
+.pc-disc {
+  flex: 1;
+  padding: 0 32px;
+}
+
 }

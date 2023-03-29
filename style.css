@@ -30,6 +30,7 @@ header h1 {
   display: flex;
   justify-content: space-between;
   padding: 0px 16px 0px;
+  overflow-x: scroll;
 }
 .menu {
   display: flex;

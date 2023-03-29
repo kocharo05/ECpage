@@ -46,12 +46,14 @@ a {
 
 /* main */
 
-main {
-  margin: 16px;  
-}
 main img {
   width: 100%;
   margin: 0;
+  margin-bottom: 16px;
+}
+
+.pc-disc {
+  margin: 0 16px;
 }
 
 .disc h2 {
